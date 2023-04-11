@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPIC Recreation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="instructions" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; ">
+  <h1>Xena</h1> <h2>Start drawing on the canvas and hit play to hear your drawings come to life.</h2>
+  <br>
+  <label>
+    <input type="checkbox" id="hideInstructionsCheckbox">
+    Do not show instructions again
+  </label>
+</div>
+
+    <canvas id="drawingCanvas"></canvas>
+    <button id="playButton">Play</button>
+    <input type="checkbox" id="toggleReferenceLines"></input>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.30/Tone.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+canvas {
+    display: block;
+    background-color: white;
+    cursor: crosshair;
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input {
+    position: fixed;
+    bottom: 20px;
+    left: 100px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 36px;
+    color: #424557;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 480px;
+    color: #6A7192;
+}
